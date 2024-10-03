@@ -18,14 +18,6 @@ class Data(object):
         train_path = self.path + "/train" + self.filetype
         test_path = self.path + "/test" + self.filetype
 
-        '''
-        unique_users:user unique list
-        users：pair(u,i) exp:  [0, 0,0, 1,2,3]
-        items：pair(u,i)       [1,23,4,56,7,9]
-        pos_len：every users' interaction 
-        num_inter：total interaction
-        dict：map(u,all_items)  exp: {0:{1,23,4},1:{56},2:{7},3:{9}}
-        '''
         self.unique_train_users, self.train_users, self.train_items, self.train_pos_len, self.train_num_inter, self.train_dict = self.read_file(train_path)
         self.unique_test_users,  self.test_users,  self.test_items,  self.test_pos_len,  self.test_num_inter, self.test_dict = self.read_file(test_path)
         assert len(self.train_users) == len(self.train_items)
