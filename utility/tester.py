@@ -131,7 +131,7 @@ def pred_to_label(pred_items, true_items):
         true_item = true_items[i]
         pred_item = pred_items[i]
 
-        pred = list(map(lambda x: x in true_item, pred_item)) # 查找每一个预测的元素是否处在其中
+        pred = list(map(lambda x: x in true_item, pred_item)) 
 
         pred = np.array(pred).astype("float")
 
