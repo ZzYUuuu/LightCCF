@@ -18,7 +18,10 @@ If you find this work helpful, please cite it:
 @article{Yu_Unveiling_2025,
 title = {Unveiling Contrastive Learning‘ Capability of Neighborhood Aggregation for Collaborative Filtering},
 author={Zhang, Yu and Zhang, Yiwen and Zhang, Yi and Sang, Lei and Yang, Yun},
-journal={arXiv preprint arXiv:2504.10113},
+booktitle = {Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+doi={10.1145/3726302.3730111},
+pages = {1985–1994},
+numpages = {10},
 year={2025},
 }
 ```
