@@ -15,7 +15,7 @@ The best parameters for each dataset are provided in the `LightCCF.sh` file. You
 ## Citation
 If you find this work helpful, please cite it:
 ```
-@article{Yu_Unveiling_2025,
+@inproceedings{Yu_Unveiling_2025,
 title = {Unveiling Contrastive Learning‘ Capability of Neighborhood Aggregation for Collaborative Filtering},
 author={Zhang, Yu and Zhang, Yiwen and Zhang, Yi and Sang, Lei and Yang, Yun},
 booktitle = {Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
